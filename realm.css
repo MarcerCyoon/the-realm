@@ -7,8 +7,13 @@ body {
   font-size: 18px;
 }
 
-p.links {
+.links {
   padding-bottom: 7px;
+}
+
+.jewel {
+  padding-left: 28px;
+  padding-top: 3px;
 }
 
 .footer {
@@ -17,4 +22,11 @@ p.links {
   text-align: left;
   bottom: 5px;
   width: 100%;
+}
+
+.box {
+  width: 575px;
+  display: table;
+  position: relative;
+  margin: 10px;
 }
