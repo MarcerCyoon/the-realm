@@ -9,12 +9,21 @@
 <body>
   <h1> The Realm </h1>
 
-  <p>Web graphic design is my passion.</p>
+  <p id="quoteField">Error</p>
+  <script type="text/javascript">
+    var num =  Math.floor((Math.random() * 5));
+    var quotes = ['Web graphic design is my passion.', 'To learn is to live.', 'Honesty is a virtue.', 'Oh captain, my captain.', 'No one cared about who I was until I put on the mask.'];
+    var text = quotes[num];
+    var field = document.getElementById("quoteField");
+    field.innerHTML = text;
+  </script>
   <hr>
   <p class="links"> <a href="about.html">About</a> </p>
   <p class="links"> <a href="writings.html">Writings</a> </p>
   <p class="links"> <a href="knowledge.html">Jewels of Knowledge</a></p>
-  <p class="links"> <a href="quotes.html">Bad Quotes</a> </p>
+  <p class="links"> <a href="entertainment.html">Entertainment Den</a> </p>
+  <p class="links"> <a href="mailto:anonymouslyserendipity@gmail.com">Contact Me</a> </p>
+
 
   <div class="footer"> © 2019 MarcerCyoon; All Rights Reserved</div>
 </body>
