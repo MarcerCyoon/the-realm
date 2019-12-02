@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+
+body {
+  background-color: lightblue;
+  font-family: "Fira Sans";
+  font-weight: 400;
+  font-size: 18px;
+}
+
+p.links {
+  padding-bottom: 7px;
+}
+
+.footer {
+  font-size: 12px;
+  position: fixed;
+  text-align: left;
+  bottom: 5px;
+  width: 100%;
+}
