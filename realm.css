@@ -18,8 +18,8 @@ body {
 
 .footer {
   font-size: 12px;
-  position: fixed;
-  text-align: center;
+  text-align: left;
+  padding-top: 30px;
   bottom: 5px;
   width: 100%;
 }
